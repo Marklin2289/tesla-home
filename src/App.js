@@ -1,13 +1,13 @@
 import "./App.css";
 import Header from "./components/Header";
 
-// import Accessories from "./assets/Desktop-Accessories.jpg";
+import Accessories from "./assets/Desktop-Accessories.jpg";
 import ModelS from "./assets/Desktop-ModelS.jpeg";
 import Model3 from "./assets/Desktop-Model3.jpeg";
 import ModelX from "./assets/Desktop-ModelX.jpeg";
 import ModelY from "./assets/Desktop-ModelY.jpeg";
 import SolarPanels from "./assets/Desktop-SolarPanels.jpeg";
-// import SolarRoof from "./assets/Desktop-SolarRoof.jpeg";
+import SolarRoof from "./assets/Desktop-SolarRoof.jpeg";
 import Item from "./components/Item";
 function App() {
   return (
@@ -64,6 +64,28 @@ function App() {
           desc="$41,990"
           descLink=""
           backgroundImg={ModelY}
+          leftBtnTxt="ORDER NOW"
+          leftBtnLink=""
+          rightBtnTxt="LEARN MORE"
+          rightBtnLink=""
+          twoButtons="true"
+        />
+        <Item
+          title="Accessories"
+          desc="Money-back guarantee"
+          descLink=""
+          backgroundImg={Accessories}
+          leftBtnTxt="ORDER NOW"
+          leftBtnLink=""
+          rightBtnTxt="LEARN MORE"
+          rightBtnLink=""
+          twoButtons="true"
+        />
+        <Item
+          title="SolarRoof"
+          desc="Money-back guarantee"
+          descLink=""
+          backgroundImg={SolarRoof}
           leftBtnTxt="ORDER NOW"
           leftBtnLink=""
           rightBtnTxt="LEARN MORE"
